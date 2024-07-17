@@ -90,4 +90,20 @@
 
 
 #include <iostream>
-
+using namespace std;
+int main ()
+{
+    int a;
+    cout <<"enter a"<<endl;
+    cin >> a;
+    switch (a)
+    {
+    case 12:
+        cout << "a is 12";
+        break;
+    
+    default:
+    cout << "a is not 12";
+        break;
+    }
+}
